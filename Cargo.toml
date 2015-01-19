@@ -1,0 +1,12 @@
+[package]
+
+name = "compass-rust"
+version = "0.0.1"
+authors = [ "Marius Seritan <github@seritan.net>" ]
+
+[[bin]]
+name = "compass-rust"
+
+[dependencies]
+semver = "0.1.0"
+rustc-serialize = "0.2"

@@ -1,6 +1,3 @@
-
-extern crate "rustc-serialize" as rustc_serialize;
-
 use std::error::Error;
 use rustc_serialize::Decodable;
 use rustc_serialize::json::{self, Json};
